@@ -171,11 +171,10 @@
         margin-top: 17px;
     }
     .about__me{
-        width:65%;
+        width:70%;
     }
     .about__cards{
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        display: none;
     }
     .about__content{
         text-align: center;
@@ -184,8 +183,7 @@
         margin:2.5rem 0;
     }
     .card1{
-        left:10px;
-        width:10rem;
+        width:5rem;
         padding: 20px 10px;
         border-radius: 50%;
     }
@@ -195,10 +193,14 @@
         margin-bottom: 0rem
     }
     .card1 small {
-        font-size: 8px;
+        font-size: 5px;
       }
       .card1 h5 {
-        font-size: 12px;
+        font-size: 10px;
       }
-      
+      .about__content p{
+        font-size: 15px;
+        color: var(--color-light);
+        line-height: 20px;
+    }
    }

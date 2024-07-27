@@ -72,7 +72,7 @@ input,textarea{
         width: var(--container-width-ms);
        }
        #contact{
-        margin-top: -17rem;
+        margin-top: 100rem;
        }
       
 } 

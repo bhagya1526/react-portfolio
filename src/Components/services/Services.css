@@ -88,16 +88,16 @@
     gap: 1.5rem;
    }
    .service__image1{
-    width:350px;
+    width:380px;
     height: 160.5px;
     border-radius: 2rem 2rem 0 0;
 }
 .service__image2{
-    width:350px;
+    width:380px;
     height: 160.5px;
     border-radius: 2rem 2rem 0 0;
 }
    #services{
-    margin-top: 25rem;
+    margin-top: 10rem;
    }
 } 

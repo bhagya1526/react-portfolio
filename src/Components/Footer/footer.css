@@ -64,7 +64,7 @@ footer a{
    
 @media (max-width: 600px){
         footer{
-        margin-top: 200px;
+        margin-top: 250px;
         }
     .permalinks{
         flex-direction: column;

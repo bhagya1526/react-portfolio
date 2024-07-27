@@ -164,6 +164,8 @@ header{
  header{
     height:100vh;
     margin-bottom: 0;
+    margin-left: 10px;
+    
  }
  .header__socials, .scroll__down{
     display: none;
@@ -175,4 +177,5 @@ header{
     left:20%;
     top: 25%;
  }
+
 }
