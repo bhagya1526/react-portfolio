@@ -127,7 +127,9 @@
     transform-origin: 50% 50%;
     transition: transform 0.25s ease-out;
   }
-  
+  #about{
+    margin-top: 85px;
+  }
   .card1:hover:before {
     transform: scale(21);
   }
@@ -164,7 +166,8 @@
         width:12rem;
         border-radius: 100%;
     }
-   }
+}
+
    
     @media screen and (max-width: 600px){
     #about{

@@ -3,7 +3,9 @@
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
 }
-
+#portfolio{
+margin-top: 130px;
+}
 .portfolio__item{
     background: var(--color-bg-variant);
     padding: 1.2rem;

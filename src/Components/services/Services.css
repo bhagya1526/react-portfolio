@@ -19,18 +19,18 @@
 }
 
 #services{
-    margin-top: 25rem;
+    margin-top: -5rem;
 }
 .service__image{
     border-radius: 2rem 2rem 0 0;
 }
 .service__image1{
-    height: 190px;
+    height: 165px;
     border-radius: 2rem 2rem 0 0;
 }
 .service__image2{
     width:360px;
-    height: 195px;
+    height: 165px;
     border-radius: 2rem 2rem 0 0;
 }
 .service__head{
