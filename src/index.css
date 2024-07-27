@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+
+:root {
+ --color-bg: #070707;
+ --color-bg-variant: rgb(68, 64, 61);
+ --color-primary: #fe7b5b;
+ --color-gradient:  linear-gradient(90deg, #ebc99d, #f441a5, #ffeb3b, #f46303);
+ --color-primary-variant: #f98d6666;
+ --color-white: #fff;
+ --color-light: rgba(255,255,255,0.6);
+--transition:all 400ms ease;
+--container-width-lg: 75%;
+--container-width-md: 86%;
+--container-width-ms: 90%;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture.png)
+}
+
+/**general styles ***/
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+
+h1{
+    font-size:2.5rem;
+}
+
+section{
+    height: 100vh;
+}
+
+section > h2, section > h5{
+    text-align:center;
+    color: rgb(241, 198, 120);
+}
+
+section > h2{
+    color: rgb(234, 125, 71);
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color:#eba41e;
+    transition: var(--transition);
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius:0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background:var(--color-white); 
+    color: var(--color-bg);
+    border-color: transparent;
+
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/***media queries**/
+/*large devices*/
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top:15rem;
+    }
+}
+
+/*small devices*/
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-ms);
+    }
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+}
