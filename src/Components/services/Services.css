@@ -25,12 +25,11 @@
     border-radius: 2rem 2rem 0 0;
 }
 .service__image1{
-    width:413px;
     height: 190px;
     border-radius: 2rem 2rem 0 0;
 }
 .service__image2{
-    width:413px;
+    width:360px;
     height: 195px;
     border-radius: 2rem 2rem 0 0;
 }
@@ -88,12 +87,12 @@
     gap: 1.5rem;
    }
    .service__image1{
-    width:380px;
+    width:350px;
     height: 160.5px;
     border-radius: 2rem 2rem 0 0;
 }
 .service__image2{
-    width:380px;
+    width:360px;
     height: 160.5px;
     border-radius: 2rem 2rem 0 0;
 }
