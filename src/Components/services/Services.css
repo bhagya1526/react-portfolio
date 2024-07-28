@@ -87,22 +87,29 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
    }
+   .service__image{
+    height:120px;
+    width:270px;
+   }
    .service__image1{
-    width:330px;
-    height: 160.5px;
+    width:270px;
+    height: 140px;
     border-radius: 2rem 2rem 0 0;
 }
 .service__image2{
-    width:330px;
-    height: 160.5px;
+    width:270px;
+    height: 140px;
     border-radius: 2rem 2rem 0 0;
 }
    #services{
     margin-top: 10rem;
    }
    .service{
-    margin-left: 7px;
-    width: 330px;
-    height:620px;
+    margin-left:4px;
+    width: 270px;
+    height:480px;
    }
+   .service__list p{
+    font-size:10px;
+}
 } 
