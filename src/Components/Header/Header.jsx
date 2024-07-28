@@ -1,16 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css';
 import CTA from './CTA';
 import ROCKET from '../../assets/rocket.png';
 import ME from '../../assets/me.jpeg';
 import HeaderSocials from './HeaderSocials';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 const Header = () => {
+
+  const [typeeffect] = useTypewriter({
+    words:['Full Stack Developer.','Competitive Programmer.','Classical Dancer.'],
+    loop:{},
+    typeSpeed:100,
+    deleteSpeed:50,
+    delay:1000,
+  })
+
   return (
     <header>
      <div className="container header__container">
       <h5>Hello I'm</h5>
       <h1>Pasagada Bhagya Rani</h1>
-      <h5 className="text-light">Full Stack Developer</h5>
+      <h3 className="text-light">
+      <span>{typeeffect}</span>
+      <span style={{color:'orange'}}><Cursor/></span>
+      </h3>
       <CTA />
       <HeaderSocials />
       {/* <div className="scene">
