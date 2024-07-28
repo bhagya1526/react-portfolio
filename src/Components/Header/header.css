@@ -171,7 +171,7 @@ header{
     display: none;
  }
  .me{
-  left:-13px;
+  left:-30px;
  }
  h1::before, h1::after{
     left:20%;
