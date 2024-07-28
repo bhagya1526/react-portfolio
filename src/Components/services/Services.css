@@ -105,7 +105,8 @@
     margin-top: 10rem;
    }
    .service{
-    margin-left:4px;
+    align-items: center;
+    margin-left:13%;
     width: 270px;
     height:480px;
    }
